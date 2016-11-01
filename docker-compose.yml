@@ -1,0 +1,11 @@
+version: '2'
+services:
+    bstat_rest:
+        build: .
+        image: golang_alpine_my
+        container_name: my_rest
+        ports:
+            - "5004:5004"
+        volumes:
+            - .:/go/src/github.com/johnwesonga/greeting_rest/
+        working_dir: /go/src/github.com/johnwesonga/greeting_rest/
