@@ -1,1 +1,3 @@
-A very simple Go http server + Docker
+A very simple Go http server + Docker + Alpine
+
+basically follow this https://medium.com/@nikolay.bystritskiy/how-to-dockerize-golang-app-using-alpine-docker-image-68b7b65a9afd#.2t85yhw6x
